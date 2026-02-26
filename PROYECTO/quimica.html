@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investigación: Biología y Química</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Reutilizamos tus variables y estilos de la página principal */
+        :root {
+            --color-verde: #43a047;
+            --color-azul: #1e88e5;
+            --color-fondo: #f4f4f9;
+            --color-texto: #333;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background-color: var(--color-fondo);
+            color: var(--color-texto);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+            url('https://www.traza.net/wp-content/uploads/2024/05/analisis-fisico-quimico-alimentos.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 250px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .contenedor {
+            max-width: 950px;
+            margin: 30px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        h2 { 
+            color: #2e7d32; 
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+
+        .titulo-quimica {
+            color: var(--color-azul);
+        }
+
+        .grid-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+
+        .tarjeta-info {
+            background: #fff;
+            border: 1px solid #eee;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+            transition: 0.3s;
+        }
+
+        .tarjeta-info:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .resaltado-bio { background: #f1f8e9; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 5px solid var(--color-verde); }
+        .resaltado-qui { background: #e3f2fd; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 5px solid var(--color-azul); }
+
+        .btn-volver {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: var(--color-verde);
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #263238;
+            color: white;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Procesos biológicos y analisis quimicos</h1>
+    <p>Biología y Química detrás de la salud</p>
+</header>
+
+<div class="contenedor">
+    <a href="index.html" class="btn-volver">← Volver al inicio</a>
+
+    <section id="biologia">
+        <h2>🧬 Procesos Biológicos</h2>
+        <p>
+            La nutrición humana es un proceso complejo donde el cuerpo transforma la materia orgánica en energía y estructuras celulares a través de tres etapas clave:
+        </p>
+
+        <div class="grid-info">
+            <div class="tarjeta-info">
+                <h3>1. Digestión</h3>
+                <p>Proceso mecánico y químico que descompone los alimentos en moléculas pequeñas 
+                    para que puedan ser utilizadas por el organismo. <br>
+<img src="https://www.vivosano.org/wp-content/uploads/2022/08/intestino-digestion.jpg" 
+     style="width: 100%; height: auto; border-radius: 8px; margin-top: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">                </p>
+            </div>
+            <div class="tarjeta-info">
+                <h3>2. Absorción</h3>
+                <p>Ocurre en las vellosidades del intestino delgado, donde los nutrientes atraviesan
+                    las paredes para llegar al torrente sanguíneo.</p> <br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvM5CWjwvFuzyOO8sbuW9x0thZpsqlp3qtjw&s" 
+     style="width: 100%; height: auto; border-radius: 8px; margin-top: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">                </p>
+
+            </div>
+            <div class="tarjeta-info">
+                <h3>3. Metabolismo</h3>
+                <p>Las células utilizan los nutrientes absorbidos para obtener energía (ATP) o 
+                    construir nuevos tejidos y defensas.<br>
+        <img src="https://s1.significados.com/foto/metabolismo-og.jpg?class=ogImageSquare" 
+     style="width: 100%; height: auto; border-radius: 8px; margin-top: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">                </p>
+</p>
+            </div>
+        </div>
+
+<div class="resaltado-bio">
+            <h3>Impacto de los Nutrientes en la Salud</h3>
+            <ul>
+                <li>
+                    <strong>Carbohidratos (Glúcidos):</strong> Son la fuente de energía inmediata preferida por el cerebro y los músculos. Mantienen los niveles de glucosa constantes en la sangre; su deficiencia puede causar fatiga y falta de concentración.
+                </li>
+                <li>
+                    <strong>Lípidos (Grasas):</strong> Funcionan como la principal reserva energética a largo plazo del organismo. Son fundamentales para el equilibrio hormonal, la formación de membranas celulares y la protección de órganos vitales.
+                </li>
+                <li>
+                    <strong>Proteínas:</strong> Responsables de la reparación de tejidos dañados (músculos y piel) y el crecimiento. Son clave para el fortalecimiento del sistema inmunológico mediante la creación de anticuerpos.
+                </li>
+            </ul>
+            <p style="margin-top: 15px; font-size: 0.9rem; color: #555;">
+                <strong>Nota sobre salud:</strong> El desequilibrio en el consumo de estos nutrientes, sumado al sedentarismo, es un factor de riesgo para desarrollar obesidad, diabetes y enfermedades cardiovasculares.
+            </p>
+        </div>    </section>
+
+    <section id="quimica">
+        <h2 class="titulo-quimica">⚗️ Análisis Químico</h2>
+        <p>
+            Desde el punto de vista químico, los nutrientes son moléculas compuestas por elementos específicos y enlaces que almacenan energía.
+        </p>
+
+        <div class="grid-info">
+            <div class="tarjeta-info">
+                <h3>Composición Molecular</h3>
+                <p><strong>Carbohidratos:</strong> Formados por Carbono (C), Hidrógeno (H) y Oxígeno (O).</p>
+                <p><strong>Proteínas:</strong> Cadenas de aminoácidos unidos por enlaces peptídicos.</p>
+                <p><strong>Lípidos:</strong> Estructuras de ácidos grasos y triglicéridos.</p> <br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdnyZ4n9mNBtUxywanhr9NzXDul9-Px74QNg&s" 
+     style="width: 100%; height: auto; border-radius: 8px; margin-top: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">                </p>
+
+            </div>
+            <div class="tarjeta-info">
+                <h3>Energía y Reacción</h3>
+                <p>La energía alimentaria se mide en <strong>kcal</strong>. 
+                    El cuerpo la libera mediante reacciones de <strong>oxidación</strong>, 
+                    un proceso químico de transferencia de electrones. <br> 
+        <img src="https://cienciasfera.com/materiales/fisicayquimica/fisicayquimica/tema09/45786f74c3a9726d696361.png" 
+     style="width: 100%; height: auto; border-radius: 8px; margin-top: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">                </p>
+
+                </p>
+            </div>
+        </div>
+
+        <div class="resaltado-qui">
+            <p><strong>Nota Científica:</strong> El equilibrio químico entre estos nutrientes previene enfermedades actuales como la obesidad, la diabetes y trastornos cardiovasculares relacionados con el sedentarismo.</p>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>Proyecto Interdisciplinario</p>
+    <p>Elaborado por: Dario Quishipangui | 2026</p>
+</footer>
+
+</body>
+</html>
